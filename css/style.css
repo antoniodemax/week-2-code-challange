@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://i.insider.com/60da09f51477f300188c7f78?width=800&format=jpeg&auto=webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    text-shadow: 5px 5px 5px mediumblue;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#shoppingList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#shoppingList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#shoppingList li.purchased label {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#shoppingList li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #e74c3c;
+}
+
+#clearListBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#clearListBtn:hover {
+    background-color: #c82333;
+}
