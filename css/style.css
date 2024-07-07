@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+h2 {
+    font-family: "Permanent Marker", cursive;
+}
+
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(https://i.insider.com/60da09f51477f300188c7f78?width=800&format=jpeg&auto=webp);
+    background-color: pink;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -10,13 +22,38 @@ body {
     margin: 20px auto;
 }
 
+
+#shopping-video {
+    
+    border: 1px solid #ccc;
+    
+    max-width: 100%;
+    height: auto;
+    
+    padding: 10px;
+    
+    margin: 0 auto;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #shopping-video::-webkit-media-controls {
+    
+    background-color: #333;
+    
+    color: #fff;
+  }
+
+
+
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    background-color: white;
+    padding: 100px;
+    border-radius: 820x;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 350px;
+    width: 300px;
+    opacity: inherit;
 }
 
 h1 {
